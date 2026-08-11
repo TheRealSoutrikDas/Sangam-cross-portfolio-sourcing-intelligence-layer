@@ -1,0 +1,31 @@
+[source: email attachment "VG_Quote_Lumen_Jul26.pdf" -> pdftotext output]
+[from: sales@vidhataglass.co.in  to: procurement@lumenskin.in  date: 2026-07-14]
+
+VIDHATA GLASS WORKS PVT LTD
+Firozabad, Uttar Pradesh | GSTIN 09AABCV1234K1ZQ
+
+QUOTATION - Ref VG/QT/2026/1188
+
+Kind attn: Purchase Dept.
+Item : AMBER GLASS BOTTLE 50 ML, NECK 18MM, WT 62 GM (+/- 3%)
+        Type III soda lime, amber shade, screen print not included
+
+Rate structure (Ex-works Firozabad, per piece, in INR):
+   10,000  - 24,999 pcs  ...... 8.90
+   25,000  - 49,999 pcs  ...... 8.20
+   50,000  - 99,999 pcs  ...... 7.55
+   1,00,000 pcs & above  ...... 6.95
+
+MOQ 10000 pcs. Mould charges NIL for standard 18mm.
+Lead time 18-21 days ex-works. Freight extra approx Rs 0.35/pc to Mumbai.
+GST 18% extra. Payment 30 days from invoice.
+Validity of this offer: 45 days from date above.
+
+Also we can offer:
+Item : ALUMINIUM SCREW CAP 18MM with EPE liner
+   25,000 pcs +  ...... 2.40 per pc
+   1,00,000 pcs + ..... 2.05 per pc
+MOQ 25000. Lead time 14 days.
+
+For Vidhata Glass Works
+(Authorised Signatory)

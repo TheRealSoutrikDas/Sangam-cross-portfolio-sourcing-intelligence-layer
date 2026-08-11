@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1860" height="1330" viewBox="0 0 1860 1330">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7a8496"/></marker>
+<marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4a7c59"/></marker>
+<marker id="aho" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c08a2e"/></marker>
+</defs>
+<rect width="1860" height="1330" fill="#ffffff"/>
+<text x="46" y="56" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="34" fill="#1a1f2b" font-weight="bold" text-anchor="start" letter-spacing="4">SANGAM</text>
+<text x="250" y="56" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="22" fill="#5f6875" font-weight="normal" text-anchor="start">cross-portfolio sourcing intelligence layer</text>
+<text x="46" y="84" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15.5" fill="#5f6875" font-weight="normal" text-anchor="start">Google ADK. A deterministic award engine, four agents where judgement is genuinely required, and one typed state contract.</text>
+<path d="M 46 104 L 1814 104" stroke="#c8cedb" stroke-width="1.4"/>
+<text x="46" y="146" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#5f6875" font-weight="bold" text-anchor="start" letter-spacing="2.5">SOURCES</text>
+<path d="M 46 156 L 314 156" stroke="#c8cedb" stroke-width="1"/>
+<text x="610" y="146" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#5f6875" font-weight="bold" text-anchor="start" letter-spacing="2.5">THE GRAPH</text>
+<path d="M 610 156 L 1040 156" stroke="#c8cedb" stroke-width="1"/>
+<text x="1268" y="146" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#5f6875" font-weight="bold" text-anchor="start" letter-spacing="2.5">HUMAN DECISIONS</text>
+<path d="M 1268 156 L 1714 156" stroke="#c8cedb" stroke-width="1"/>
+<rect x="46" y="196" width="268" height="64" rx="7" fill="#ffffff" stroke="#c8cedb" stroke-width="1.3"/>
+<text x="64" y="224" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#1a1f2b" font-weight="bold" text-anchor="start">Vendor quotations</text>
+<text x="64" y="246" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">PDF, one buyer's inbox</text>
+<rect x="46" y="280" width="268" height="64" rx="7" fill="#ffffff" stroke="#c8cedb" stroke-width="1.3"/>
+<text x="64" y="308" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#1a1f2b" font-weight="bold" text-anchor="start">WhatsApp threads</text>
+<text x="64" y="330" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">negotiated rate, Hinglish</text>
+<rect x="46" y="364" width="268" height="64" rx="7" fill="#ffffff" stroke="#c8cedb" stroke-width="1.3"/>
+<text x="64" y="392" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#1a1f2b" font-weight="bold" text-anchor="start">Import offers</text>
+<text x="64" y="414" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">email, USD, FOB</text>
+<rect x="46" y="448" width="268" height="64" rx="7" fill="#ffffff" stroke="#c8cedb" stroke-width="1.3"/>
+<text x="64" y="476" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#1a1f2b" font-weight="bold" text-anchor="start">Portal rate cards</text>
+<text x="64" y="498" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">XLSX download</text>
+<rect x="46" y="532" width="268" height="64" rx="7" fill="#ffffff" stroke="#c8cedb" stroke-width="1.3"/>
+<text x="64" y="560" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#1a1f2b" font-weight="bold" text-anchor="start">ERP purchase orders</text>
+<text x="64" y="582" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">free-text descriptions</text>
+<path d="M 314 228.0 L 348 228.0" fill="none" stroke="#c8cedb" stroke-width="1.6"/>
+<path d="M 314 312.0 L 348 312.0" fill="none" stroke="#c8cedb" stroke-width="1.6"/>
+<path d="M 314 396.0 L 348 396.0" fill="none" stroke="#c8cedb" stroke-width="1.6"/>
+<path d="M 314 480.0 L 348 480.0" fill="none" stroke="#c8cedb" stroke-width="1.6"/>
+<path d="M 314 564.0 L 348 564.0" fill="none" stroke="#c8cedb" stroke-width="1.6"/>
+<path d="M 348 228.0 L 348 564.0" stroke="#c8cedb" stroke-width="1.6" fill="none"/>
+<path d="M 348 396.0 L 394 396.0 L 394 211.0 L 596 211.0" fill="none" stroke="#7a8496" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="773.0" y="118" width="104" height="30" rx="15" fill="#ffffff" stroke="#5f6875" stroke-width="1.4"/>
+<text x="825.0" y="138" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#5f6875" font-weight="bold" text-anchor="middle" letter-spacing="2">START</text>
+<path d="M 825.0 148 L 825.0 170" fill="none" stroke="#7a8496" stroke-width="2.0" marker-end="url(#ah)"/>
+<rect x="610" y="176" width="430" height="70" rx="7" fill="#eef1f6" stroke="#5b6c7a" stroke-width="1.8"/>
+<text x="632" y="208" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#1a1f2b" font-weight="bold" text-anchor="start">ingest</text>
+<text x="632" y="232" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">connectors pull vendor artefacts and ERP demand</text>
+<rect x="982" y="191" width="42" height="22" rx="11" fill="#ffffff" stroke="#5b6c7a" stroke-width="1.3"/>
+<text x="1003.0" y="206" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#5b6c7a" font-weight="bold" text-anchor="middle">det</text>
+<path d="M 825.0 246 L 825.0 270" fill="none" stroke="#7a8496" stroke-width="2.0" marker-end="url(#ah)"/>
+<rect x="610" y="276" width="430" height="70" rx="7" fill="#fdf1dc" stroke="#c08a2e" stroke-width="1.8"/>
+<text x="632" y="308" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#1a1f2b" font-weight="bold" text-anchor="start">extractor</text>
+<text x="632" y="332" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">unstructured document to schema-constrained terms</text>
+<rect x="978" y="291" width="46" height="22" rx="11" fill="#ffffff" stroke="#c08a2e" stroke-width="1.3"/>
+<text x="1001.0" y="306" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#c08a2e" font-weight="bold" text-anchor="middle">LLM</text>
+<path d="M 825.0 346 L 825.0 370" fill="none" stroke="#7a8496" stroke-width="2.0" marker-end="url(#ah)"/>
+<rect x="610" y="376" width="430" height="70" rx="7" fill="#eef1f6" stroke="#5b6c7a" stroke-width="1.8"/>
+<text x="632" y="408" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#1a1f2b" font-weight="bold" text-anchor="start">validate</text>
+<text x="632" y="432" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">deterministic critic. routes back on failure</text>
+<rect x="982" y="391" width="42" height="22" rx="11" fill="#ffffff" stroke="#5b6c7a" stroke-width="1.3"/>
+<text x="1003.0" y="406" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#5b6c7a" font-weight="bold" text-anchor="middle">det</text>
+<path d="M 825.0 446 L 825.0 470" fill="none" stroke="#7a8496" stroke-width="2.0" marker-end="url(#ah)"/>
+<rect x="610" y="476" width="430" height="70" rx="7" fill="#eef1f6" stroke="#5b6c7a" stroke-width="1.8"/>
+<text x="632" y="508" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#1a1f2b" font-weight="bold" text-anchor="start">canonicalise</text>
+<text x="632" y="532" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">free text to canonical spec id, or ADJACENT</text>
+<rect x="982" y="491" width="42" height="22" rx="11" fill="#ffffff" stroke="#5b6c7a" stroke-width="1.3"/>
+<text x="1003.0" y="506" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#5b6c7a" font-weight="bold" text-anchor="middle">det</text>
+<path d="M 825.0 546 L 825.0 570" fill="none" stroke="#7a8496" stroke-width="2.0" marker-end="url(#ah)"/>
+<rect x="610" y="576" width="430" height="70" rx="7" fill="#eef1f6" stroke="#5b6c7a" stroke-width="1.8"/>
+<text x="632" y="608" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#1a1f2b" font-weight="bold" text-anchor="start">optimise</text>
+<text x="632" y="632" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">landed cost, then pooled award under policy</text>
+<rect x="982" y="591" width="42" height="22" rx="11" fill="#ffffff" stroke="#5b6c7a" stroke-width="1.3"/>
+<text x="1003.0" y="606" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#5b6c7a" font-weight="bold" text-anchor="middle">det</text>
+<path d="M 825.0 646 L 825.0 670" fill="none" stroke="#7a8496" stroke-width="2.0" marker-end="url(#ah)"/>
+<rect x="610" y="676" width="430" height="70" rx="7" fill="#eef1f6" stroke="#5b6c7a" stroke-width="1.8"/>
+<text x="632" y="708" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#1a1f2b" font-weight="bold" text-anchor="start">risk</text>
+<text x="632" y="732" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">everything the system refuses to decide alone</text>
+<rect x="982" y="691" width="42" height="22" rx="11" fill="#ffffff" stroke="#5b6c7a" stroke-width="1.3"/>
+<text x="1003.0" y="706" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#5b6c7a" font-weight="bold" text-anchor="middle">det</text>
+<path d="M 825.0 746 L 825.0 770" fill="none" stroke="#7a8496" stroke-width="2.0" marker-end="url(#ah)"/>
+<rect x="610" y="776" width="430" height="70" rx="7" fill="#eef1f6" stroke="#5b6c7a" stroke-width="1.8"/>
+<text x="632" y="808" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#1a1f2b" font-weight="bold" text-anchor="start">brief</text>
+<text x="632" y="832" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">assembles the settled facts behind each ask</text>
+<rect x="982" y="791" width="42" height="22" rx="11" fill="#ffffff" stroke="#5b6c7a" stroke-width="1.3"/>
+<text x="1003.0" y="806" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#5b6c7a" font-weight="bold" text-anchor="middle">det</text>
+<path d="M 825.0 846 L 825.0 870" fill="none" stroke="#7a8496" stroke-width="2.0" marker-end="url(#ah)"/>
+<rect x="610" y="876" width="430" height="70" rx="7" fill="#fdf1dc" stroke="#c08a2e" stroke-width="1.8"/>
+<text x="632" y="908" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#1a1f2b" font-weight="bold" text-anchor="start">harmonisation analyst</text>
+<text x="632" y="932" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">writes the proposal for packaging design</text>
+<rect x="978" y="891" width="46" height="22" rx="11" fill="#ffffff" stroke="#c08a2e" stroke-width="1.3"/>
+<text x="1001.0" y="906" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#c08a2e" font-weight="bold" text-anchor="middle">LLM</text>
+<path d="M 825.0 946 L 825.0 970" fill="none" stroke="#7a8496" stroke-width="2.0" marker-end="url(#ah)"/>
+<rect x="610" y="976" width="430" height="70" rx="7" fill="#fdf1dc" stroke="#c08a2e" stroke-width="1.8"/>
+<text x="632" y="1008" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#1a1f2b" font-weight="bold" text-anchor="start">negotiator</text>
+<text x="632" y="1032" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">drafts the buyer's ask. never sends it</text>
+<rect x="978" y="991" width="46" height="22" rx="11" fill="#ffffff" stroke="#c08a2e" stroke-width="1.3"/>
+<text x="1001.0" y="1006" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#c08a2e" font-weight="bold" text-anchor="middle">LLM</text>
+<path d="M 610 411.0 L 580 411.0 L 580 311.0 L 606 311.0" fill="none" stroke="#c08a2e" stroke-width="2" marker-end="url(#aho)"/>
+<g transform="translate(568,361.0) rotate(-90)"><text x="0" y="0" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" fill="#c08a2e" font-weight="bold" text-anchor="middle">repair</text></g>
+<rect x="1268" y="375.0" width="446" height="72" rx="7" fill="#eaf3ec" stroke="#4a7c59" stroke-width="1.4"/>
+<text x="1286" y="400.0" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16.5" fill="#2f5540" font-weight="bold" text-anchor="start">Sourcing analyst</text>
+<text x="1286" y="421.0" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#41604c" font-weight="normal" text-anchor="start">extraction review</text>
+<text x="1286" y="440.0" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#41604c" font-weight="normal" text-anchor="start">when confidence &lt; 0.85</text>
+<path d="M 1040 411.0 L 1260 411.0" fill="none" stroke="#4a7c59" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#ahg)"/>
+<rect x="1268" y="465.5" width="446" height="91" rx="7" fill="#eaf3ec" stroke="#4a7c59" stroke-width="1.4"/>
+<text x="1286" y="490.5" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16.5" fill="#2f5540" font-weight="bold" text-anchor="start">Brand + packaging design</text>
+<text x="1286" y="511.5" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#41604c" font-weight="normal" text-anchor="start">spec harmonisation queue</text>
+<text x="1286" y="530.5" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#41604c" font-weight="normal" text-anchor="start">300 gsm vs 350 gsm is a</text>
+<text x="1286" y="549.5" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#41604c" font-weight="normal" text-anchor="start">design decision, not a match</text>
+<path d="M 1040 511.0 L 1260 511.0" fill="none" stroke="#4a7c59" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#ahg)"/>
+<rect x="1268" y="617.5" width="446" height="53" rx="7" fill="#eaf3ec" stroke="#4a7c59" stroke-width="1.4"/>
+<text x="1286" y="642.5" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16.5" fill="#2f5540" font-weight="bold" text-anchor="start">Category buyer</text>
+<text x="1286" y="663.5" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#41604c" font-weight="normal" text-anchor="start">award approval, always</text>
+<path d="M 1040 711.0 L 1260 644.0" fill="none" stroke="#4a7c59" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#ahg)"/>
+<rect x="1268" y="684.5" width="446" height="53" rx="7" fill="#eaf3ec" stroke="#4a7c59" stroke-width="1.4"/>
+<text x="1286" y="709.5" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16.5" fill="#2f5540" font-weight="bold" text-anchor="start">Supply planner</text>
+<text x="1286" y="730.5" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#41604c" font-weight="normal" text-anchor="start">lead-time and cover</text>
+<path d="M 1040 711.0 L 1260 711.0" fill="none" stroke="#4a7c59" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#ahg)"/>
+<rect x="1268" y="751.5" width="446" height="53" rx="7" fill="#eaf3ec" stroke="#4a7c59" stroke-width="1.4"/>
+<text x="1286" y="776.5" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16.5" fill="#2f5540" font-weight="bold" text-anchor="start">Head of Sourcing</text>
+<text x="1286" y="797.5" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#41604c" font-weight="normal" text-anchor="start">policy exceptions</text>
+<path d="M 1040 711.0 L 1260 778.0" fill="none" stroke="#4a7c59" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#ahg)"/>
+<rect x="1268" y="975.0" width="446" height="72" rx="7" fill="#eaf3ec" stroke="#4a7c59" stroke-width="1.4"/>
+<text x="1286" y="1000.0" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16.5" fill="#2f5540" font-weight="bold" text-anchor="start">Category buyer</text>
+<text x="1286" y="1021.0" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#41604c" font-weight="normal" text-anchor="start">reads, edits, sends</text>
+<text x="1286" y="1040.0" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#41604c" font-weight="normal" text-anchor="start">or doesn't</text>
+<path d="M 1040 1011.0 L 1260 1011.0" fill="none" stroke="#4a7c59" stroke-width="1.7" stroke-dasharray="6 4" marker-end="url(#ahg)"/>
+<path d="M 532 186 L 532 1036" stroke="#5b6c7a" stroke-width="1.6" stroke-dasharray="3 5" fill="none"/>
+<circle cx="532" cy="211.0" r="3.6" fill="#5b6c7a"/>
+<path d="M 532 211.0 L 610 211.0" stroke="#5b6c7a" stroke-width="1.2" stroke-dasharray="3 4" fill="none"/>
+<circle cx="532" cy="311.0" r="3.6" fill="#5b6c7a"/>
+<path d="M 532 311.0 L 610 311.0" stroke="#5b6c7a" stroke-width="1.2" stroke-dasharray="3 4" fill="none"/>
+<circle cx="532" cy="411.0" r="3.6" fill="#5b6c7a"/>
+<path d="M 532 411.0 L 610 411.0" stroke="#5b6c7a" stroke-width="1.2" stroke-dasharray="3 4" fill="none"/>
+<circle cx="532" cy="511.0" r="3.6" fill="#5b6c7a"/>
+<path d="M 532 511.0 L 610 511.0" stroke="#5b6c7a" stroke-width="1.2" stroke-dasharray="3 4" fill="none"/>
+<circle cx="532" cy="611.0" r="3.6" fill="#5b6c7a"/>
+<path d="M 532 611.0 L 610 611.0" stroke="#5b6c7a" stroke-width="1.2" stroke-dasharray="3 4" fill="none"/>
+<circle cx="532" cy="711.0" r="3.6" fill="#5b6c7a"/>
+<path d="M 532 711.0 L 610 711.0" stroke="#5b6c7a" stroke-width="1.2" stroke-dasharray="3 4" fill="none"/>
+<circle cx="532" cy="811.0" r="3.6" fill="#5b6c7a"/>
+<path d="M 532 811.0 L 610 811.0" stroke="#5b6c7a" stroke-width="1.2" stroke-dasharray="3 4" fill="none"/>
+<circle cx="532" cy="911.0" r="3.6" fill="#5b6c7a"/>
+<path d="M 532 911.0 L 610 911.0" stroke="#5b6c7a" stroke-width="1.2" stroke-dasharray="3 4" fill="none"/>
+<circle cx="532" cy="1011.0" r="3.6" fill="#5b6c7a"/>
+<path d="M 532 1011.0 L 610 1011.0" stroke="#5b6c7a" stroke-width="1.2" stroke-dasharray="3 4" fill="none"/>
+<g transform="translate(516,611.0) rotate(-90)"><text x="0" y="0" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#5b6c7a" font-weight="bold" text-anchor="middle">SourcingState  |  typed, validated at graph build</text></g>
+<rect x="46" y="1092" width="1668" height="152" rx="9" fill="#fdf1dc" stroke="#c08a2e" stroke-width="2"/>
+<text x="68" y="1124" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" fill="#1a1f2b" font-weight="bold" text-anchor="start">sourcing_analyst</text>
+<rect x="282" y="1107" width="46" height="22" rx="11" fill="#ffffff" stroke="#c08a2e" stroke-width="1.3"/>
+<text x="305" y="1122" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" fill="#c08a2e" font-weight="bold" text-anchor="middle">LLM</text>
+<text x="68" y="1148" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#5f6875" font-weight="normal" text-anchor="start">the surface a buyer talks to. open-ended questions, unknown number of steps.</text>
+<text x="68" y="1176" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#1a1f2b" font-weight="bold" text-anchor="start">tools:</text>
+<text x="124" y="1176" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#5f6875" font-weight="normal" text-anchor="start">explain_award  ·  simulate_award  ·  price_at_volume  ·  check_spec_match  ·  open_risks  ·  show_source  ·  find_in_sources</text>
+<text x="68" y="1198" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#1a1f2b" font-weight="bold" text-anchor="start">agents:</text>
+<text x="134" y="1198" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#5f6875" font-weight="normal" text-anchor="start">vendor_scout (web search)  ·  harmonisation_analyst</text>
+<text x="68" y="1224" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#8a6410" font-weight="bold" text-anchor="start">It chooses WHICH computation to run. sangam.engine runs it. Every figure traces back to the line of the document it came from.</text>
+<path d="M 86 604 L 86 1084" fill="none" stroke="#c08a2e" stroke-width="1.6" stroke-dasharray="4 5" marker-end="url(#aho)"/>
+<text x="96" y="1066" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" fill="#c08a2e" font-weight="bold" text-anchor="start">documents stay readable</text>
+<path d="M 46 1278 L 1814 1278" stroke="#c8cedb" stroke-width="1.2"/>
+<rect x="46" y="1291" width="26" height="18" rx="4" fill="#eef1f6" stroke="#5b6c7a" stroke-width="1.4"/>
+<text x="80" y="1305" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">deterministic Python. reproducible, auditable, no model in the loop</text>
+<rect x="588.3" y="1291" width="26" height="18" rx="4" fill="#fdf1dc" stroke="#c08a2e" stroke-width="1.4"/>
+<text x="622.3" y="1305" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">LlmAgent. schema-constrained, confidence-scored</text>
+<rect x="992.5999999999999" y="1291" width="26" height="18" rx="4" fill="#eaf3ec" stroke="#4a7c59" stroke-width="1.4"/>
+<text x="1026.6" y="1305" font-family="'DejaVu Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#5f6875" font-weight="normal" text-anchor="start">human gate. named owner, blocks the PO</text>
+</svg>

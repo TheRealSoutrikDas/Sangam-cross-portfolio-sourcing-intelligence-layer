@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sangam"
+version = "0.1.0"
+description = "Cross-portfolio sourcing intelligence layer"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk>=2.6",
+    "pydantic>=2.7",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+sangam = "sangam.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["evals"]
+pythonpath = ["src"]
+addopts = "-q"

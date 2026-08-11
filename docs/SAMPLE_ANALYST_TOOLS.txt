@@ -1,0 +1,319 @@
+
+  The analyst's tool calls, run without a model.
+  With a key, the analyst chooses these; the answers are identical.
+
+==============================================================================
+  BUYER:  Why did Om Print win the kraft carton?
+==============================================================================
+
+  -> explain_award("SPEC-CTN-KFT-350-ML")
+     {
+       "spec_id": "SPEC-CTN-KFT-350-ML",
+       "label": "Kraft mono carton, 350 gsm, 4-colour, matt lamination",
+       "award_mode": "single-source (POLICY EXCEPTION - no second qualified source)",
+       "awarded": [
+         {
+           "quote_id": "Q007",
+           "source": "om_print_ratecard.txt:7-15",
+           "vendor_id": "V-OMPRINT",
+           "vendor_name": "Om Print & Pack",
+           "qty": 336000,
+           "landed_unit_cost": 4.975287671232876,
+           "lead_time_days": 15,
+           "payment_terms_days": 45
+         }
+       ],
+       "horizon_qty": 336000,
+       "baseline_landed_per_pc": 6.473,
+       "awarded_landed_per_pc": 4.975,
+       "quarterly_saving": 503242,
+       "resilience_premium": null,
+       "all_candidates": [
+         {
+           "vendor": "Shakti Packaging",
+           "landed_at_full_volume": 4.966,
+           "lead_time_days": 14,
+           "payment_terms_days": -10,
+           "origin": "domestic",
+           "tradeable": false,
+           "blocked_because": "expired 2026-07-31",
+           "extraction_confidence": 0.91
+         },
+         {
+           "vendor": "Om Print & Pack",
+           "landed_at_full_volume": 4.975,
+           "lead_time_days": 15,
+           "payment_terms_days": 45,
+           "origin": "domestic",
+           "tradeable": true,
+           "blocked_because": null,
+           "extraction_confidence": 0.94
+         }
+       ]
+     }
+
+     The answer is in the blocked list, not the winner: Shakti's price
+     lapsed on 31 July, so it could not be awarded volume at all.
+
+==============================================================================
+  BUYER:  What would re-confirming Shakti's price actually be worth?
+==============================================================================
+
+  -> simulate_award("SPEC-CTN-KFT-350-ML", include_expired=True)
+     {
+       "spec_id": "SPEC-CTN-KFT-350-ML",
+       "assumptions_changed": {
+         "exclude_vendor": null,
+         "include_expired": true,
+         "dual_source_threshold_inr": null,
+         "max_import_share": null
+       },
+       "current_award": [
+         {
+           "quote_id": "Q007",
+           "source": "om_print_ratecard.txt:7-15",
+           "vendor_id": "V-OMPRINT",
+           "vendor_name": "Om Print & Pack",
+           "qty": 336000,
+           "landed_unit_cost": 4.975287671232876,
+           "lead_time_days": 15,
+           "payment_terms_days": 45
+         }
+       ],
+       "current_cost": 1671697,
+       "simulated_award": [
+         {
+           "quote_id": "Q003",
+           "source": "whatsapp_shakti_packaging.txt:5-13",
+           "vendor_id": "V-SHAKTI",
+           "vendor_name": "Shakti Packaging",
+           "qty": 235200,
+           "landed_unit_cost": 4.96627397260274,
+           "lead_time_days": 14,
+           "payment_terms_days": -10
+         },
+         {
+           "quote_id": "Q007",
+           "source": "om_print_ratecard.txt:7-15",
+           "vendor_id": "V-OMPRINT",
+           "vendor_name": "Om Print & Pack",
+           "qty": 100800,
+           "landed_unit_cost": 5.517150684931506,
+           "lead_time_days": 15,
+           "payment_terms_days": 45
+         }
+       ],
+       "simulated_cost": 1724196,
+       "simulated_mode": "dual-source (policy)",
+       "cost_delta": 52500,
+       "note": null
+     }
+
+     It costs money and buys a second source. That is the trade the
+     Head of Sourcing is actually being asked to make.
+
+==============================================================================
+  BUYER:  What happens if we lose Vidhata on glass entirely?
+==============================================================================
+
+  -> simulate_award("SPEC-GLS-AMB-050-N18", exclude_vendor="Vidhata Glass Works")
+     {
+       "spec_id": "SPEC-GLS-AMB-050-N18",
+       "assumptions_changed": {
+         "exclude_vendor": "Vidhata Glass Works",
+         "include_expired": null,
+         "dual_source_threshold_inr": null,
+         "max_import_share": null
+       },
+       "current_award": [
+         {
+           "quote_id": "Q001",
+           "source": "vidhata_glass_quote_Q3.pdf.txt:10-22",
+           "vendor_id": "V-VIDHATA",
+           "vendor_name": "Vidhata Glass Works",
+           "qty": 162000,
+           "landed_unit_cost": 7.228,
+           "lead_time_days": 21,
+           "payment_terms_days": 30
+         }
+       ],
+       "current_cost": 1170936,
+       "simulated_award": [],
+       "simulated_cost": null,
+       "simulated_mode": "NO TRADEABLE PRICE - escalated",
+       "cost_delta": null,
+       "note": "no viable award under these assumptions"
+     }
+
+==============================================================================
+  BUYER:  Can we put the whole PET jar volume on the cheap import?
+==============================================================================
+
+  -> simulate_award("SPEC-JAR-PET-200-N70", max_import_share=1.0)
+     {
+       "spec_id": "SPEC-JAR-PET-200-N70",
+       "assumptions_changed": {
+         "exclude_vendor": null,
+         "include_expired": null,
+         "dual_source_threshold_inr": null,
+         "max_import_share": 1.0
+       },
+       "current_award": [
+         {
+           "quote_id": "Q005",
+           "source": "email_sunrise_pack.txt:11-25",
+           "vendor_id": "V-SUNRISE",
+           "vendor_name": "Sunrise Packaging Co.",
+           "qty": 118800,
+           "landed_unit_cost": 5.839395205479452,
+           "lead_time_days": 47,
+           "payment_terms_days": -20
+         },
+         {
+           "quote_id": "Q011",
+           "source": "erp_current_po_lines.csv",
+           "vendor_id": "V-MERIDIAN",
+           "vendor_name": "Meridian Polymers",
+           "qty": 79200,
+           "landed_unit_cost": 7.029972602739726,
+           "lead_time_days": 12,
+           "payment_terms_days": 30
+         }
+       ],
+       "current_cost": 1250494,
+       "simulated_award": [
+         {
+           "quote_id": "Q005",
+           "source": "email_sunrise_pack.txt:11-25",
+           "vendor_id": "V-SUNRISE",
+           "vendor_name": "Sunrise Packaging Co.",
+           "qty": 138600,
+           "landed_unit_cost": 5.839395205479452,
+           "lead_time_days": 47,
+           "payment_terms_days": -20
+         },
+         {
+           "quote_id": "Q011",
+           "source": "erp_current_po_lines.csv",
+           "vendor_id": "V-MERIDIAN",
+           "vendor_name": "Meridian Polymers",
+           "qty": 59400,
+           "landed_unit_cost": 7.029972602739726,
+           "lead_time_days": 12,
+           "payment_terms_days": 30
+         }
+       ],
+       "simulated_cost": 1226921,
+       "simulated_mode": "dual-source (policy)",
+       "cost_delta": -23573,
+       "note": null
+     }
+
+     Cheaper, and it puts a 47-day lead time on the whole spec with no
+     domestic fallback. The policy cap exists for this reason.
+
+==============================================================================
+  BUYER:  Nimbu Home wants 300gsm kraft cartons. Same spec, right?
+==============================================================================
+
+  -> check_spec_match("mono carton kraft 300 gsm 4 colour matt lam")
+     {
+       "description": "mono carton kraft 300 gsm 4 colour matt lam",
+       "spec_id": null,
+       "why_not": "adjacent to SPEC-CTN-KFT-350-ML (differs on gsm=300)",
+       "action": "this is a harmonisation question for packaging design, not something to resolve by picking the nearest spec"
+     }
+
+     No. This is the refusal that stops the system substituting a
+     near-match and calling it an optimisation.
+
+==============================================================================
+  BUYER:  Shakti's number looks odd. What did they actually say?
+==============================================================================
+
+  -> show_source("Q003")
+     {
+       "quote_id": "Q003",
+       "vendor": "Shakti Packaging",
+       "item_as_vendor_wrote_it": "Kraft mono carton 350gsm 4col+matt lam",
+       "document": "whatsapp_shakti_packaging.txt",
+       "span": "lines 5-13",
+       "excerpt": "   5  12/07/26, 11:09 - Shakti Packaging Vapi: Kraft mono carton 350gsm 4col+matt lam\n   6  25k pcs - 6.80/pc\n   7  50k pcs - 6.10/pc\n   8  1 lakh - 5.40/pc\n   9  2 lakh above - 4.95/pc\n  10  MOQ 25000. FOR Mumbai included. 12-14 days delivery\n  11  12/07/26, 11:10 - Shakti Packaging Vapi: GST 18 extra sir. Payment 50% advance 50% before dispatch\n  12  12/07/26, 11:22 - Nikhil (Root & Rye): 50k pe 5.80 kar do\n  13  12/07/26, 11:40 - Shakti Packaging Vapi: Sir 5.95 final kar sakte hai 50k pe, board rate bhi badha hai is month",
+       "extractor_confidence": 0.91,
+       "extractor_evidence": "11:09 list rate 50k=6.10 SUPERSEDED by 11:40 negotiated 50k=5.95. 50% adv + 50% before dispatch read as -10 days. Validity from 18/07 message 'Rate 31st tak hi valid hai'"
+     }
+
+     The extraction is defensible because the buyer can read the
+     thread: 6.10 was the list rate at 11:09, 5.95 was agreed at 11:40.
+
+==============================================================================
+  BUYER:  Is there anything in these documents about prices being revised?
+==============================================================================
+
+  -> find_in_sources("board index")
+     {
+       "query": "board index",
+       "match_count": 1,
+       "matches": [
+         {
+           "document": "om_print_ratecard.txt",
+           "line": 14,
+           "context": "  13  Payment terms: 45 days credit for approved accounts.\n  14  Note: rates subject to revision if kraft board index moves beyond +/-4%.\n  15  Quote validity: rate card valid through 30-Sep-2026."
+         }
+       ]
+     }
+
+     Nowhere in the structured terms, and it decides whether the
+     award holds. This is why the raw documents stay reachable.
+
+==============================================================================
+  BUYER:  What is open on my desk right now?
+==============================================================================
+
+  -> open_risks(severity="HIGH")
+     {
+       "count": 5,
+       "flags": [
+         {
+           "severity": "HIGH",
+           "code": "QUOTE_EXPIRED",
+           "message": "Shakti Packaging - Kraft mono carton 350gsm 4col+matt lam: price lapsed 2026-07-31 and cannot be committed",
+           "owner": "Category buyer",
+           "evidence": "whatsapp_shakti_packaging.txt"
+         },
+         {
+           "severity": "HIGH",
+           "code": "QUOTE_EXPIRED",
+           "message": "Shakti Packaging - laminated standup pouch 250gm: price lapsed 2026-07-31 and cannot be committed",
+           "owner": "Category buyer",
+           "evidence": "whatsapp_shakti_packaging.txt"
+         },
+         {
+           "severity": "HIGH",
+           "code": "SINGLE_SOURCE_EXPOSURE",
+           "message": "SPEC-GLS-AMB-050-N18: Rs 1,170,936 per quarter resting on one vendor with no qualified alternate",
+           "owner": "Head of Sourcing",
+           "evidence": ""
+         },
+         {
+           "severity": "HIGH",
+           "code": "SINGLE_SOURCE_EXPOSURE",
+           "message": "SPEC-CTN-KFT-350-ML: Rs 1,671,697 per quarter resting on one vendor with no qualified alternate",
+           "owner": "Head of Sourcing",
+           "evidence": "re-confirm the lapsed price: award becomes Shakti Packaging + Om Print & Pack, costing Rs 52,500 but clearing the single-source exposure"
+         },
+         {
+           "severity": "HIGH",
+           "code": "SINGLE_SOURCE_EXPOSURE",
+           "message": "SPEC-PCH-LAM-250: Rs 774,963 per quarter resting on one vendor with no qualified alternate",
+           "owner": "Head of Sourcing",
+           "evidence": "re-confirm the lapsed price: award becomes Om Print & Pack, costing Rs 0 but clearing the single-source exposure"
+         }
+       ]
+     }
+
+==============================================================================
+  Every figure above came from sangam.engine, the same code path the
+  quarterly brief uses. The analyst picks the questions; it does not
+  do the arithmetic.
+==============================================================================

@@ -1,0 +1,161 @@
+
+==============================================================================
+  SANGAM  |  cross-portfolio sourcing brief
+==============================================================================
+  run date 2026-08-11   extraction: cached golden set (set GOOGLE_API_KEY for the live path)
+
+==============================================================================
+  1. CANONICALISATION
+==============================================================================
+  supply side : 9/11 quote lines resolved
+  demand side : 15/15 PO lines resolved
+
+  SPEC-CAP-ALU-018         <- 5 distinct descriptions
+  SPEC-CTN-KFT-350-ML      <- 6 distinct descriptions
+  SPEC-GLS-AMB-050-N18     <- 4 distinct descriptions
+  SPEC-JAR-PET-200-N70     <- 5 distinct descriptions
+  SPEC-PCH-LAM-250         <- 4 distinct descriptions
+
+  Held for human review, never auto-substituted:
+    - Mono carton kraft 300gsm 4c                    adjacent to SPEC-CTN-KFT-350-ML (differs on gsm=300)
+    - Mono carton SBS 300gsm 4c                      adjacent to SPEC-CTN-KFT-350-ML (differs on material=sbs, gs
+
+==============================================================================
+  2. AWARD RECOMMENDATIONS
+==============================================================================
+
+  SPEC-GLS-AMB-050-N18  Amber glass bottle, 50 ml, 18 mm neck
+------------------------------------------------------------------------------
+  pooled from : Bloom Baby, Lumen Skin, Sattva Wellness
+  volume      : 54,000/month -> 162,000 committed this quarter
+  award mode  : single-source (POLICY EXCEPTION - no second qualified source)
+    -> Vidhata Glass Works       162,000 pc  @ landed  7.23  (21d, +30d terms)
+       terms read from vidhata_glass_quote_Q3.pdf.txt:10-22  [Q001]
+  landed/pc   : 9.29 today  ->  7.23   (-22.2%)
+  quarter     : Rs 1,504,990 -> Rs 1,170,936   saving Rs 334,054
+
+  SPEC-CAP-ALU-018  Aluminium screw cap, 18 mm, EPE liner
+------------------------------------------------------------------------------
+  pooled from : Bloom Baby, Lumen Skin, Sattva Wellness
+  volume      : 54,000/month -> 162,000 committed this quarter
+  award mode  : single-source (below dual-source threshold)
+    -> Vidhata Glass Works       162,000 pc  @ landed  2.08  (14d, +30d terms)
+       terms read from vidhata_glass_quote_Q3.pdf.txt:24-28  [Q002]
+  landed/pc   : 2.60 today  ->  2.08   (-19.9%)
+  quarter     : Rs 420,505 -> Rs 336,845   saving Rs 83,660
+  blocked     : Sunrise Packaging Co. - extraction confidence 0.74 below floor
+
+  SPEC-CTN-KFT-350-ML  Kraft mono carton, 350 gsm, 4-colour, matt lamination
+------------------------------------------------------------------------------
+  pooled from : Copper Kettle, Lumen Skin, Nimbu Home, Root & Rye
+  volume      : 112,000/month -> 336,000 committed this quarter
+  award mode  : single-source (POLICY EXCEPTION - no second qualified source)
+    -> Om Print & Pack           336,000 pc  @ landed  4.98  (15d, +45d terms)
+       terms read from om_print_ratecard.txt:7-15  [Q007]
+  landed/pc   : 6.47 today  ->  4.98   (-23.1%)
+  quarter     : Rs 2,174,938 -> Rs 1,671,697   saving Rs 503,242
+  blocked     : Shakti Packaging - expired 2026-07-31
+  ACTION      : re-confirm the lapsed price: award becomes Shakti Packaging + Om Print & Pack, costing Rs 52,500 but clearing the single-source exposure
+
+  SPEC-JAR-PET-200-N70  PET jar, 200 ml, white opaque, 70 mm neck
+------------------------------------------------------------------------------
+  pooled from : Nimbu Home, Sattva Wellness, Terra Pet
+  volume      : 66,000/month -> 198,000 committed this quarter
+  award mode  : dual-source (policy)
+    -> Sunrise Packaging Co.     118,800 pc  @ landed  5.84  (47d, -20d terms)
+       terms read from email_sunrise_pack.txt:11-25  [Q005]
+    -> Meridian Polymers          79,200 pc  @ landed  7.03  (12d, +30d terms)
+       terms read from erp_current_po_lines.csv  [Q011]
+  landed/pc   : 7.17 today  ->  6.32   (-11.9%)
+  quarter     : Rs 1,419,411 -> Rs 1,250,494   saving Rs 168,917
+  resilience  : Rs 94,294 paid against the cheapest single award, to hold a second qualified vendor
+
+  SPEC-PCH-LAM-250  Laminated stand-up pouch, 250 g
+------------------------------------------------------------------------------
+  pooled from : Copper Kettle, Root & Rye
+  volume      : 76,000/month -> 228,000 committed this quarter
+  award mode  : single-source (POLICY EXCEPTION - no second qualified source)
+    -> Om Print & Pack           228,000 pc  @ landed  3.40  (22d, +45d terms)
+       terms read from om_print_ratecard.txt:9-15  [Q008]
+  landed/pc   : 4.06 today  ->  3.40   (-16.3%)
+  quarter     : Rs 926,139 -> Rs 774,963   saving Rs 151,177
+  blocked     : Shakti Packaging - expired 2026-07-31
+  ACTION      : re-confirm the lapsed price: award becomes Om Print & Pack, costing Rs 0 but clearing the single-source exposure
+
+==============================================================================
+  3. RISK REGISTER
+==============================================================================
+  [HIGH] QUOTE_EXPIRED              owner: Category buyer
+         Shakti Packaging - Kraft mono carton 350gsm 4col+matt lam: price lapsed 2026-07-31 and cannot be committed
+         evidence: whatsapp_shakti_packaging.txt
+  [HIGH] QUOTE_EXPIRED              owner: Category buyer
+         Shakti Packaging - laminated standup pouch 250gm: price lapsed 2026-07-31 and cannot be committed
+         evidence: whatsapp_shakti_packaging.txt
+  [HIGH] SINGLE_SOURCE_EXPOSURE     owner: Head of Sourcing
+         SPEC-GLS-AMB-050-N18: Rs 1,170,936 per quarter resting on one vendor with no qualified alternate
+  [HIGH] SINGLE_SOURCE_EXPOSURE     owner: Head of Sourcing
+         SPEC-CTN-KFT-350-ML: Rs 1,671,697 per quarter resting on one vendor with no qualified alternate
+         evidence: re-confirm the lapsed price: award becomes Shakti Packaging + 
+  [HIGH] SINGLE_SOURCE_EXPOSURE     owner: Head of Sourcing
+         SPEC-PCH-LAM-250: Rs 774,963 per quarter resting on one vendor with no qualified alternate
+         evidence: re-confirm the lapsed price: award becomes Om Print & Pack, co
+  [MED ] QUOTE_EXPIRING             owner: Category buyer
+         Sunrise Packaging Co. - PET JAR 200ML, WHITE OPAQUE, 70MM NECK, 22G: expires 2026-08-20
+         evidence: email_sunrise_pack.txt
+  [MED ] QUOTE_EXPIRING             owner: Category buyer
+         Sunrise Packaging Co. - ALUMINIUM SCREW CAP 18MM w/ liner: expires 2026-08-20
+         evidence: email_sunrise_pack.txt
+  [MED ] LOW_CONFIDENCE_EXTRACTION  owner: Sourcing analyst
+         Shakti Packaging - laminated standup pouch 250gm: confidence 0.83, held for human confirmation
+         evidence: 14:02 message. Validity not restated for pouch; assumed same a
+  [MED ] LOW_CONFIDENCE_EXTRACTION  owner: Sourcing analyst
+         Sunrise Packaging Co. - ALUMINIUM SCREW CAP 18MM w/ liner: confidence 0.74, held for human confirmation
+         evidence: Item 2. Freight per piece is an estimate, vendor gave loadabil
+  [MED ] LONG_LEAD_TIME             owner: Supply planner
+         SPEC-JAR-PET-200-N70: Sunrise Packaging Co. at 47 days needs 2 months of cover before switching
+  [MED ] VENDOR_CONCENTRATION       owner: Head of Sourcing
+         Om Print & Pack would hold 47% of awarded spend against a policy cap of 35%
+  [MED ] NO_PRIMARY_QUOTE           owner: Category buyer
+         Meridian Polymers - PET jar 200ml white opaque 70mm neck: tiers inferred from PO history, no signed quote on file
+         evidence: erp_current_po_lines.csv
+  [MED ] NO_QUOTE_ON_FILE           owner: Category buyer
+         Krishna Glass Udyog supplies Sattva Wellness at 9.20/pc with no quote in the system, so the price is unbenchmarked
+         evidence: erp_current_po_lines.csv
+  [MED ] NO_QUOTE_ON_FILE           owner: Category buyer
+         Krishna Glass Udyog supplies Sattva Wellness at 2.55/pc with no quote in the system, so the price is unbenchmarked
+         evidence: erp_current_po_lines.csv
+  [INFO] SPEC_HARMONISATION         owner: Brand + Packaging design
+         'Mono carton kraft 300gsm 4c' matched no canonical spec: adjacent to SPEC-CTN-KFT-350-ML (differs on gsm=300)
+  [INFO] SPEC_HARMONISATION         owner: Brand + Packaging design
+         'Mono carton SBS 300gsm 4c' matched no canonical spec: adjacent to SPEC-CTN-KFT-350-ML (differs on material=sbs, gsm=300)
+
+==============================================================================
+  4. BOTTOM LINE
+==============================================================================
+  addressable spend this quarter : Rs 6,445,984
+  optimised spend                : Rs 5,204,934
+  saving                         : Rs 1,241,050  (19.3%)
+  annualised                     : Rs 4,964,199
+
+  ...on 5 specs across 7 brands. Organizations runs 30+ brands and a packaging
+  catalogue two orders of magnitude wider than this repository.
+
+  human decisions required before any PO : 5 high, 9 medium
+==============================================================================
+
+==============================================================================
+  GRAPH EVENTS
+==============================================================================
+  [sangam_pipeline] Ingested 4 vendor documents and 15 demand lines across 7 brands.
+  [sangam_pipeline] Replayed 11 records from the golden set.
+  [sangam_pipeline] All 11 records passed validation on attempt 1.
+  [sangam_pipeline] Resolved 24 of 26 descriptions to 5 canonical specs. 2 held for human review.
+  [sangam_pipeline] Awarded 5 specs. Baseline Rs 6,445,984 to Rs 5,204,934, saving Rs 1,241,050.
+  [sangam_pipeline] 5 high and 9 medium items require a human before any PO is raised.
+  [sangam_pipeline] Prepared 6 negotiation briefs and 2 harmonisation candidates for review.
+
+==============================================================================
+  EVALS
+==============================================================================
+........................................................................ [ 75%]
+.......................                                                  [100%]

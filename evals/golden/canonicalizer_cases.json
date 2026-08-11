@@ -1,0 +1,42 @@
+{
+  "_comment": [
+    "Golden cases for the canonicaliser. The negatives are the point.",
+    "Any matcher passes 'amber glass bottle 50ml'. The cases that cost real",
+    "money are the near-misses: 300 vs 350 gsm, SBS vs kraft, 18 vs 20 mm",
+    "neck, clear vs amber. Precision on negatives is the release gate;",
+    "recall is what we improve afterwards.",
+    "",
+    "Two of these negatives failed on the first run of this suite. Both were",
+    "false positives on colour, neither was caught by reading the code, and",
+    "either would have been a five-figure wrong PO."
+  ],
+  "positives": [
+    {"text": "Amber glass bottle 50ml 18mm neck", "spec_id": "SPEC-GLS-AMB-050-N18"},
+    {"text": "50 ml amber bottle, 18 mm, glass", "spec_id": "SPEC-GLS-AMB-050-N18"},
+    {"text": "AMBER GLASS BTL 50ML NK18", "spec_id": "SPEC-GLS-AMB-050-N18"},
+    {"text": "amber glass bottle, 50 ML, neck 18 mm, type III", "spec_id": "SPEC-GLS-AMB-050-N18"},
+    {"text": "Kraft mono carton 350gsm 4col matt", "spec_id": "SPEC-CTN-KFT-350-ML"},
+    {"text": "Carton, kraft 350gsm, matt laminated, 4c", "spec_id": "SPEC-CTN-KFT-350-ML"},
+    {"text": "mono carton kraft 350 gsm 4 colour matt lam", "spec_id": "SPEC-CTN-KFT-350-ML"},
+    {"text": "kraft carton 350gsm matt lam 4c", "spec_id": "SPEC-CTN-KFT-350-ML"},
+    {"text": "PET jar 200ml white opaque 70mm", "spec_id": "SPEC-JAR-PET-200-N70"},
+    {"text": "pet jar 200 ml opaque white neck70", "spec_id": "SPEC-JAR-PET-200-N70"},
+    {"text": "200ml PET jar, white, 70 mm neck", "spec_id": "SPEC-JAR-PET-200-N70",
+     "why": "under-specified but not contradictory, must still match"},
+    {"text": "Aluminium screw cap 18mm with liner", "spec_id": "SPEC-CAP-ALU-018"},
+    {"text": "Alu cap 18mm w/ EPE liner", "spec_id": "SPEC-CAP-ALU-018"},
+    {"text": "aluminium cap 18 mm liner", "spec_id": "SPEC-CAP-ALU-018"},
+    {"text": "Standup pouch laminated 250g 3-side", "spec_id": "SPEC-PCH-LAM-250"},
+    {"text": "laminated standup pouch 250 gm 3 side", "spec_id": "SPEC-PCH-LAM-250"}
+  ],
+  "negatives": [
+    {"text": "Mono carton kraft 300gsm 4c", "why": "caliper differs"},
+    {"text": "Mono carton SBS 300gsm 4c", "why": "substrate and caliper differ"},
+    {"text": "Amber glass bottle 30ml 18mm neck", "why": "fill volume differs"},
+    {"text": "Clear glass bottle 50ml 18mm neck", "why": "shade differs, everything else identical"},
+    {"text": "Aluminium screw cap 20mm with liner", "why": "neck differs by 2 mm"},
+    {"text": "PET jar 200ml amber 70mm neck", "why": "colour differs"},
+    {"text": "Kraft mono carton 350gsm 2col matt", "why": "print colours differ"},
+    {"text": "Shipper corrugated 5ply 12x8x10", "why": "no canonical spec in this family yet"}
+  ]
+}

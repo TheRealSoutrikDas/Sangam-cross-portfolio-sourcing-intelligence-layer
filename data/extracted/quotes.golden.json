@@ -1,0 +1,364 @@
+[
+  {
+    "_source_uri": "vidhata_glass_quote_Q3.pdf.txt",
+    "_vendor_id": "V-VIDHATA",
+    "raw_description": "AMBER GLASS BOTTLE 50 ML, NECK 18MM, WT 62 GM (+/- 3%), Type III soda lime",
+    "tiers": [
+      {
+        "min_qty": 10000,
+        "price": 8.9,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 25000,
+        "price": 8.2,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 50000,
+        "price": 7.55,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 100000,
+        "price": 6.95,
+        "currency": "INR"
+      }
+    ],
+    "moq": 10000,
+    "lead_time_days": 21,
+    "payment_terms_days": 30,
+    "incoterm": "EXW",
+    "freight_inr_per_pc": 0.35,
+    "freight_note": "Freight extra approx Rs 0.35/pc to Mumbai",
+    "valid_until": "2026-08-28",
+    "confidence": 0.96,
+    "evidence": "Ref VG/QT/2026/1188, rate structure block; validity 45 days from 2026-07-14",
+    "source_lines": [
+      10,
+      22
+    ]
+  },
+  {
+    "_source_uri": "vidhata_glass_quote_Q3.pdf.txt",
+    "_vendor_id": "V-VIDHATA",
+    "raw_description": "ALUMINIUM SCREW CAP 18MM with EPE liner",
+    "tiers": [
+      {
+        "min_qty": 25000,
+        "price": 2.4,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 100000,
+        "price": 2.05,
+        "currency": "INR"
+      }
+    ],
+    "moq": 25000,
+    "lead_time_days": 14,
+    "payment_terms_days": 30,
+    "incoterm": "EXW",
+    "freight_inr_per_pc": 0.05,
+    "freight_note": "not stated for caps; inherited vendor default",
+    "valid_until": "2026-08-28",
+    "confidence": 0.88,
+    "evidence": "secondary offer block; freight and validity inherited from header, not restated",
+    "source_lines": [
+      24,
+      28
+    ]
+  },
+  {
+    "_source_uri": "whatsapp_shakti_packaging.txt",
+    "_vendor_id": "V-SHAKTI",
+    "raw_description": "Kraft mono carton 350gsm 4col+matt lam",
+    "tiers": [
+      {
+        "min_qty": 25000,
+        "price": 6.8,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 50000,
+        "price": 5.95,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 100000,
+        "price": 5.4,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 200000,
+        "price": 4.95,
+        "currency": "INR"
+      }
+    ],
+    "moq": 25000,
+    "lead_time_days": 14,
+    "payment_terms_days": -10,
+    "incoterm": "FOR",
+    "freight_inr_per_pc": 0.0,
+    "freight_note": "FOR Mumbai included",
+    "valid_until": "2026-07-31",
+    "confidence": 0.91,
+    "evidence": "11:09 list rate 50k=6.10 SUPERSEDED by 11:40 negotiated 50k=5.95. 50% adv + 50% before dispatch read as -10 days. Validity from 18/07 message 'Rate 31st tak hi valid hai'",
+    "source_lines": [
+      5,
+      13
+    ]
+  },
+  {
+    "_source_uri": "whatsapp_shakti_packaging.txt",
+    "_vendor_id": "V-SHAKTI",
+    "raw_description": "laminated standup pouch 250gm",
+    "tiers": [
+      {
+        "min_qty": 50000,
+        "price": 4.2,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 100000,
+        "price": 3.7,
+        "currency": "INR"
+      }
+    ],
+    "moq": 50000,
+    "lead_time_days": 20,
+    "payment_terms_days": -10,
+    "incoterm": "FOR",
+    "freight_inr_per_pc": 0.0,
+    "freight_note": "FOR Mumbai",
+    "valid_until": "2026-07-31",
+    "confidence": 0.83,
+    "evidence": "14:02 message. Validity not restated for pouch; assumed same as carton offer - LOW CONFIDENCE, confirm",
+    "source_lines": [
+      15,
+      19
+    ]
+  },
+  {
+    "_source_uri": "email_sunrise_pack.txt",
+    "_vendor_id": "V-SUNRISE",
+    "raw_description": "PET JAR 200ML, WHITE OPAQUE, 70MM NECK, 22G",
+    "tiers": [
+      {
+        "min_qty": 30000,
+        "price": 0.062,
+        "currency": "USD"
+      },
+      {
+        "min_qty": 80000,
+        "price": 0.051,
+        "currency": "USD"
+      }
+    ],
+    "moq": 30000,
+    "lead_time_days": 47,
+    "payment_terms_days": -20,
+    "incoterm": "FOB",
+    "freight_inr_per_pc": 0.675,
+    "freight_note": "USD 1850 per 40HQ / 240000 pcs = USD 0.0077/pc, converted at 87.5",
+    "valid_until": "2026-08-20",
+    "confidence": 0.9,
+    "evidence": "25d production + 22d transit = 47d. 30% TT deposit + 70% vs BL read as -20 days. BCD 10% applied at vendor level, not in price.",
+    "source_lines": [
+      11,
+      25
+    ]
+  },
+  {
+    "_source_uri": "email_sunrise_pack.txt",
+    "_vendor_id": "V-SUNRISE",
+    "raw_description": "ALUMINIUM SCREW CAP 18MM w/ liner",
+    "tiers": [
+      {
+        "min_qty": 50000,
+        "price": 0.021,
+        "currency": "USD"
+      }
+    ],
+    "moq": 50000,
+    "lead_time_days": 42,
+    "payment_terms_days": -20,
+    "incoterm": "FOB",
+    "freight_inr_per_pc": 0.4,
+    "freight_note": "loadability for caps not given; estimated from jar container rate - ASSUMPTION",
+    "valid_until": "2026-08-20",
+    "confidence": 0.74,
+    "evidence": "Item 2. Freight per piece is an estimate, vendor gave loadability only for the jar. Flag for buyer confirmation.",
+    "source_lines": [
+      17,
+      25
+    ]
+  },
+  {
+    "_source_uri": "om_print_ratecard.txt",
+    "_vendor_id": "V-OMPRINT",
+    "raw_description": "Mono carton kraft 350gsm 4c matt lam",
+    "tiers": [
+      {
+        "min_qty": 50000,
+        "price": 6.25,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 100000,
+        "price": 5.6,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 300000,
+        "price": 5.05,
+        "currency": "INR"
+      }
+    ],
+    "moq": 50000,
+    "lead_time_days": 15,
+    "payment_terms_days": 45,
+    "incoterm": "FOR",
+    "freight_inr_per_pc": 0.0,
+    "freight_note": "FOR Mumbai",
+    "valid_until": "2026-09-30",
+    "confidence": 0.94,
+    "evidence": "Rate card row 2; slabs 50k-1L / 1L-3L / 3L+",
+    "source_lines": [
+      7,
+      15
+    ]
+  },
+  {
+    "_source_uri": "om_print_ratecard.txt",
+    "_vendor_id": "V-OMPRINT",
+    "raw_description": "Standup pouch laminated 250g 3-side",
+    "tiers": [
+      {
+        "min_qty": 75000,
+        "price": 3.95,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 200000,
+        "price": 3.45,
+        "currency": "INR"
+      }
+    ],
+    "moq": 75000,
+    "lead_time_days": 22,
+    "payment_terms_days": 45,
+    "incoterm": "FOR",
+    "freight_inr_per_pc": 0.0,
+    "freight_note": "FOR Mumbai",
+    "valid_until": "2026-09-30",
+    "confidence": 0.93,
+    "evidence": "Rate card row 4",
+    "source_lines": [
+      9,
+      15
+    ]
+  },
+  {
+    "_source_uri": "om_print_ratecard.txt",
+    "_vendor_id": "V-OMPRINT",
+    "raw_description": "Mono carton kraft 300gsm 4c",
+    "tiers": [
+      {
+        "min_qty": 50000,
+        "price": 5.9,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 100000,
+        "price": 5.35,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 300000,
+        "price": 4.9,
+        "currency": "INR"
+      }
+    ],
+    "moq": 50000,
+    "lead_time_days": 15,
+    "payment_terms_days": 45,
+    "incoterm": "FOR",
+    "freight_inr_per_pc": 0.0,
+    "freight_note": "FOR Mumbai",
+    "valid_until": "2026-09-30",
+    "confidence": 0.94,
+    "evidence": "Rate card row 1",
+    "source_lines": [
+      6,
+      15
+    ]
+  },
+  {
+    "_source_uri": "om_print_ratecard.txt",
+    "_vendor_id": "V-OMPRINT",
+    "raw_description": "Mono carton SBS 300gsm 4c",
+    "tiers": [
+      {
+        "min_qty": 50000,
+        "price": 6.6,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 100000,
+        "price": 6.0,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 300000,
+        "price": 5.45,
+        "currency": "INR"
+      }
+    ],
+    "moq": 50000,
+    "lead_time_days": 15,
+    "payment_terms_days": 45,
+    "incoterm": "FOR",
+    "freight_inr_per_pc": 0.0,
+    "freight_note": "FOR Mumbai",
+    "valid_until": "2026-09-30",
+    "confidence": 0.94,
+    "evidence": "Rate card row 3",
+    "source_lines": [
+      8,
+      15
+    ]
+  },
+  {
+    "_source_uri": "erp_current_po_lines.csv",
+    "_vendor_id": "V-MERIDIAN",
+    "raw_description": "PET jar 200ml white opaque 70mm neck",
+    "tiers": [
+      {
+        "min_qty": 20000,
+        "price": 7.35,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 50000,
+        "price": 7.1,
+        "currency": "INR"
+      },
+      {
+        "min_qty": 100000,
+        "price": 6.6,
+        "currency": "INR"
+      }
+    ],
+    "moq": 20000,
+    "lead_time_days": 12,
+    "payment_terms_days": 30,
+    "incoterm": "FOR",
+    "freight_inr_per_pc": 0.0,
+    "freight_note": "FOR Mumbai per standing agreement",
+    "valid_until": "2026-09-15",
+    "confidence": 0.86,
+    "evidence": "NO PRIMARY QUOTE DOCUMENT. Tiers reconstructed from historic PO prices at observed volumes plus the standing rate agreement. Treat as indicative until a fresh quote is on file.",
+    "source_lines": []
+  }
+]

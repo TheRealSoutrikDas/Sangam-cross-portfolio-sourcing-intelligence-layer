@@ -1,0 +1,15 @@
+[source: vendor portal download "OmPrintPack_RateCard_Aug2026.xlsx" -> sheet 1 as text]
+
+OM PRINT & PACK, Sivakasi | Rate Card w.e.f. 01-Aug-2026 | All rates INR/pc, FOR Mumbai
+
+DESCRIPTION                                  MOQ      SLAB1        SLAB2         SLAB3
+Mono carton kraft 300gsm 4c                  50000    50k-1L 5.90  1L-3L 5.35    3L+ 4.90
+Mono carton kraft 350gsm 4c matt lam         50000    50k-1L 6.25  1L-3L 5.60    3L+ 5.05
+Mono carton SBS 300gsm 4c                    50000    50k-1L 6.60  1L-3L 6.00    3L+ 5.45
+Standup pouch laminated 250g 3-side          75000    75k-2L 3.95  2L+   3.45    -
+Shipper corrugated 5ply 12x8x10              10000    10k-50k 22.5 50k+  19.8    -
+
+Lead time: cartons 15 days, pouches 22 days, shippers 10 days.
+Payment terms: 45 days credit for approved accounts.
+Note: rates subject to revision if kraft board index moves beyond +/-4%.
+Quote validity: rate card valid through 30-Sep-2026.

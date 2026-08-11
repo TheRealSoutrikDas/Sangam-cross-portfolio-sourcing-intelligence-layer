@@ -1,0 +1,32 @@
+# Sourcing policy.
+#
+# This file is edited by the Head of Sourcing, not by an engineer. Every
+# constraint the optimiser respects is here, in words a buyer can argue with.
+# Nothing that shapes an award lives inside an agent prompt, because a policy
+# you cannot diff is a policy you cannot audit.
+
+planning_horizon_months: 3        # pool demand across the quarter, not the month
+cost_of_capital: 0.12             # annualised. prices payment terms honestly
+fx_usd_inr: 87.50                 # refreshed from the RBI reference rate daily
+
+# above this quarterly spend, a spec may not rest on one vendor
+dual_source_threshold_inr: 500000
+dual_source_primary_share: 0.70
+dual_source_secondary_share: 0.30
+
+# 47-day lead times with no domestic fallback is not a saving, it is an
+# outage waiting on a container delay
+max_import_share: 0.60
+
+# a quote past validity is a lead, not a price
+quote_stale_after_days: 45
+quote_expiring_warning_days: 14
+
+# extraction confidence below this never reaches the optimiser unreviewed
+hitl_confidence_floor: 0.85
+
+# awards on long-lead vendors need a safety-stock decision attached
+lead_time_alert_days: 35
+
+# no single vendor holds more than this share of awarded portfolio spend
+max_vendor_portfolio_share: 0.35
