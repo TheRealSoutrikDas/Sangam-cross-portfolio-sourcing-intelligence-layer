@@ -9,6 +9,8 @@ spec, normalises everything to landed cost, and awards pooled volume under a
 written sourcing policy.
 
 ```bash
+python -m venv venv
+venv\Scripts\activate
 pip install -e ".[dev]"
 python -m sangam --date 2026-08-11        # the batch pipeline, offline
 python -m sangam --trace                  # every node event as it fires
@@ -20,7 +22,10 @@ adk web                                   # talk to the analyst (needs a key)
 Python 3.10+. No API key needed for any of the above: the extraction stage
 replays a verified fixture so runs are byte-reproducible. Set `GOOGLE_API_KEY`
 and pass `--live` to run the real agents.
-
+```bash
+python -m sangam --live --trace
+adk web
+```
 ---
 
 ## The problem this solves
